@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1c8ca7</color>
+    <color name="colorPrimaryDark">#126f85</color>
+    <color name="colorAccent">#1c8ca7</color>
+    <color name="colorPrimaryy">#3F51B5</color>
+    <color name="colorPrimaryDarkk">#000000</color>
+    <color name="colorAccentt">#d1345d</color>
+    <color name="back">#d1345d</color>
+    <color name="lightback">#868585</color>
+    <color name="fore">#f0f0f0</color>
+    <color name="dark">#4f4f4f</color>
+    <color name="bookbut">#c7c6c6</color>
+    <color name="bookbutd">#a1a1a1</color>
+    <color name="lightd">#7a7a7a</color>
+    <color name="white">#ffffff</color>
+    <color name="slot">#666666</color>
+    <color name="red">#d63939</color>
+    <color name="green">#35b122</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
+</resources>

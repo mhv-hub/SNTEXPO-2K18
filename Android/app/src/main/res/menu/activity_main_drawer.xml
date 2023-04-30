@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/gone"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/gallery"
+            android:title="Gallery" />
+    </group>
+
+    <item android:title="Events">
+        <menu>
+
+            <item
+                android:id="@+id/nav_technical"
+                android:icon="@drawable/technical"
+                android:title="Technical" />
+            <item
+                android:id="@+id/nav_nontechnical"
+                android:icon="@drawable/nontechnical"
+                android:title="Non technical" />
+            <item
+                android:id="@+id/nav_artcraft"
+                android:icon="@drawable/art"
+                android:title="Art and craft" />
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Extras">
+        <menu>
+
+            <item
+                android:id="@+id/nav_winner"
+                android:icon="@drawable/winner"
+                android:title="Winners" />
+            <item
+                android:id="@+id/nav_tshirts"
+                android:icon="@drawable/tshirt"
+                android:title="T-shirts" />
+            <item
+                android:id="@+id/nav_sponser"
+                android:icon="@drawable/sponsor"
+                android:title="Sponsers" />
+
+            <item
+                android:id="@+id/nav_att"
+                android:icon="@drawable/sponsor"
+                android:title="Visitor attraction" />
+
+        </menu>
+
+    </item>
+
+</menu>

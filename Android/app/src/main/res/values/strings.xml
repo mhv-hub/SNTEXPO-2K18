@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SNTEXPO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title"> from Feburary 17th to 19th on your calendars, as Sntexpo will keep you engrossed in a plethora of professional shows, competitions, sports and events that have a lot to offer to everybody.its all  converging under one banner, one can expect to go back inspired.</string>
+    <string name="title1">Since last three years Science and Tech Expo has experienced delightful musical extravaganza with celebrity singers from Hindi and Odia film Industries. It is distinguished with Amit Sana, Indian Idol 1 finalist , Rajdeep Chatterjee Indian idol 4 contestant and famous playback singers like Ira Mohanty and Navya Jaiti of ollywood. Science and Tech Expo 2K18 is going to continue its tradition of hosting tuneful, amusing and entertaining cultural nights with melodious music and spontaneous dance performances. Hold your breath and stay tuned with us for being entertained.</string>
+    <string name="action_settings">Settings</string>
+    <string name="celeb">Science  Tech Expo is the mega annual tech fest organised by GIET, Gunupur(Autonomous) which nourishes the innovator in each and every engineer. It provides a platform to realise an individuals dream and imagination. On the precipice of digital evolution.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+</resources>

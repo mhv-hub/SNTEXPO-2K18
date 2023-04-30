@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/infoback"
+    tools:context="com.example.user.navigationdrawer.InfoActivity">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginBottom="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <ScrollView
+                android:scrollbars="none"
+                android:overScrollMode="never"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="40dp"
+                        android:id="@+id/aa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:gravity="left"
+                        android:text="WELCOME TO SCIENCE AND TECHEXPO 2K18"/>
+
+                    <TextView
+                        android:id="@+id/xx"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/aa"
+                        android:layout_marginTop="21dp"
+                        android:gravity="left"
+                        android:fontFamily="cursive"
+                        android:text="@string/celeb"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+
+
+                    <TextView
+                        android:id="@+id/bb"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/xx"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:layout_marginTop="30dp"
+                        android:text="Mark the three days! "
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/yy"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_below="@+id/bb"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="right"
+                        android:fontFamily="cursive"
+                        android:text="@string/title"/>
+
+                    <TextView
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="40dp"
+                        android:id="@+id/cc"
+                        android:layout_below="@+id/yy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:gravity="left"
+                        android:textStyle="bold"
+                        android:text="Celebraties at a glance"/>
+
+                    <TextView
+                        android:id="@+id/zz"
+                        android:paddingBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_below="@+id/cc"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="left"
+                        android:fontFamily="cursive"
+                        android:text="@string/title1"/>
+
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+
+
+        <Button
+            android:id="@+id/explorenow"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/background_signup"
+            android:text="EXPLORE NOW"
+            android:textColor="@color/dark"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"
+           />
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

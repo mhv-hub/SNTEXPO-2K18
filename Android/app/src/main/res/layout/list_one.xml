@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/curveback"
+    android:layout_marginTop="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/event_name"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:textSize="13dp"/>
+
+
+        <TextView
+            android:id="@+id/event_date"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/last_date"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:textSize="13dp"/>
+
+        <TextView
+            android:id="@+id/last_date"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/event_name"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:textSize="13dp"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/event_date"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:textSize="13dp"/>
+
+        <TextView
+            android:id="@+id/venue"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/last_date"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:textSize="13dp"/>
+
+        <TextView
+            android:id="@+id/charge"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/venue"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:textSize="13dp"/>
+
+
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

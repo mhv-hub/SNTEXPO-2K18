@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/bookbut"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iim"
+            android:background="@drawable/nav_banner"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop" />
+
+
+
+        
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:id="@+id/r2"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ListView
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:dividerHeight="5dp"
+            android:id="@+id/event_list"
+            android:divider="@color/bookbut"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </ListView>
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/temp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/immm"
+                android:background="@drawable/nonetwork"
+                android:layout_centerHorizontal="true"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/immmmm"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_below="@id/immm"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/lightd"
+                android:text="Unable to connect...Stay Tuned"/>
+
+            <Button
+                android:id="@+id/retry"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_below="@+id/immmmm"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:background="@drawable/retrybutton"
+                android:layout_centerHorizontal="true"
+                android:text="Retry"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+        
+        <Button
+            android:id="@+id/regbut"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="REGISTER NOW"
+            android:background="@drawable/registration_button"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+    </RelativeLayout>
+
+
+</RelativeLayout>

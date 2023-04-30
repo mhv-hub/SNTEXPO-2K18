@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.navigationdrawer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+        </activity>
+        <activity android:name=".Contact"
+            />
+
+        <activity android:name=".Developer" />
+        <activity
+            android:name=".Notice"
+            android:label="Notice Board"
+            android:parentActivityName=".MainActivity"
+
+            />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/key">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:theme="@style/key" />
+        <activity android:name=".Feedback" />
+
+        <service android:name=".MessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/noti_icon" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+        <activity android:name=".EventDetailsActivity"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
+        <activity android:name=".Technical"
+            android:parentActivityName=".MainActivity">
+
+    </activity>
+
+    </application>
+
+</manifest>

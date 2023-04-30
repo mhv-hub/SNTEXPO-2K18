@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_weblink"
+        android:orderInCategory="100"
+        android:title="www.sntexpo.in"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_notice"
+        android:orderInCategory="100"
+        android:title="Notice"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_contactus"
+        android:orderInCategory="100"
+        android:title="Contact us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_developer"
+        android:orderInCategory="100"
+        android:title="Developer"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_feedback"
+        android:orderInCategory="100"
+        android:title="Feedback"
+        app:showAsAction="never" />
+     
+</menu>
